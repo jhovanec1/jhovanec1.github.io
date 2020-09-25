@@ -41,28 +41,31 @@ h3 {
 .footer {
     grid-row: 5;
     grid-column: 1 / span 5;
-    margin: 100px;
+    margin: auto;
     color: white;
     display: inline;
+    border: white;
+    border-style: solid;
+
     
 
 }
 #contact {
     
-    font-size: 30px;
+    font-size: 20px;
     color: white;
-    display: inline;
-    position: absolute;
-    bottom: 0;
+    
+    
+    
 }
 #email {
     text-align: center;
-    bottom: 0;
+    
 }
 #resume {
     text-align: right;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     display: inline;
     bottom: 0;
 }
